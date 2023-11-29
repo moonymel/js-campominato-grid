@@ -31,6 +31,6 @@ Definisco la variabile del contenuto della griglia del DOM
 Definisco la variabile del bottone
 Creo un Evento per il click sul bottone
     Avvio un ciclo for per il numero delle caselle
-        Creo la cella con la funzione
+        Creo la cella con la funzione (chiamo la funzione)
         Appendo la cella alla griglia
     
