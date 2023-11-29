@@ -33,4 +33,8 @@ Creo un Evento per il click sul bottone
     Avvio un ciclo for per il numero delle caselle
         Creo la cella con la funzione (chiamo la funzione)
         Appendo la cella alla griglia
+        BONUS:
+        Creo un Evento per il click sulla cella
+            Aggiungo una classe alla cella
+            Stampo in console il numero della cella
     

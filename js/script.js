@@ -22,13 +22,24 @@ let button = document.querySelector('.btn');
 
 button.addEventListener('click', function(){
 
-    // AVVIO CICLO FOR PER IL NUMERO DI CASELLE
-    for(let i=0; i<100; i++) {
+    grid.innerHTML = '';
 
+    // AVVIO CICLO FOR PER IL NUMERO DI CASELLE
+    for(let i=0; i<100; i++) { 
+        
         // CHIAMO LA FUNZIONE PER LA CELLA
         let cell = createCell(i+1);
 
         // AGGIUNGO LA CELLA NEL DOM
         grid.appendChild(cell);
+
+        // BONUS
+
+        cell.addEventListener('click', function(){
+            this.classList.add('new-bg');
+            console.log(`Questa è la cella numero ${i+1}`)
+
+        })
+
     }
 })
